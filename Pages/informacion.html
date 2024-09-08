@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 1ER MANERA DE ESTILAR INCORRECTAMENTE
+        <style>
+            h1{
+                color: brown;
+            }
+        </style> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/style.css">
+
+    <title>Inicio</title>
+</head>
+
+<body>
+    <!-- 2DA MANERA DE ESTILAR INCORRECTAMENTE
+        <h1 style="font-size: 100px; letter-spacing: 20px;" >HOLA</h1> -->
+    <!--ESTRUCTURA #1 = CABECERA-->
+    <header id="header">
+        <nav id="navBar">
+            <img class="img_logo" src="/Icons/Logo.png" alt="Ícono Logo principal">
+            <ul class="navBar_ul">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/Pages/consolas.html">Consolas</a></li>
+                <li><a href="/Pages/imagenes.html">Imágenes</a></li>
+                <li><a href="/Pages/informacion.html">Información</a></li>
+                <li><a href="/Pages/contacto.html">Contacto</a></li>    
+            </ul>
+        </nav>
+    </header>
+
+    <!--ESTRUCTURA #2 = CONTENIDO-->
+    <main id="main">
+
+        <div class="caja1"></div>
+        <div class="caja2"></div>
+
+
+
+    </main>
+
+        <!--ESTRUCTURA #3 = PIÉ DE PÁGINA-->
+        <footer id="footer">
+            <div class="footer_logo">
+                <img src="Icons/Logo.png" alt="Ícono Logo pié">
+            </div>
+        
+            <div class="footer_links">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="/Pages/consolas.html">Consolas</a></li>
+                    <li><a href="/Pages/imagenes.html">Imágenes</a></li>
+                    <li><a href="/Pages/informacion.html">Información</a></li>
+                    <li><a href="/Pages/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        
+            <div class="footer_redes">
+                <a class="footer-redes_facebook" href="https://www.facebook.com/?locale=es_LA"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a class="footer-redes_youtube" href="https://m.youtube.com/?hl=es"><i class="fa-brands fa-youtube"></i></a>
+                <a class="footer-redes_twitter" href="https://twitter.com/?lang=es"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+
+    </footer>
+</body>
+
+</html>
